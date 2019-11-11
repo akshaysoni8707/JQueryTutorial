@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="clickevent">
+    click me
+</button>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint placeat ea deserunt maxime vero exercitationem corrupti fugiat, alias, minus, iusto corporis harum natus! Facilis incidunt a culpa animi deserunt error.
+    </p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#clickevent').click(function() {
+            $(this).text("click again");
+            $('p').hide();
+        });
+        $('#clickevent').hover(function() {
+            alert("Hello ");
+        });
+        $("p").on("click", function() {
+            $(this).hide(1000);
+        });
+        $("p").on({
+            mouseenter: function() {
+                $(this).css("background-color", "lightgray");
+            },
+            mouseleave: function() {
+                $(this).css("background-color", "lightblue");
+            },
+            click: function() {
+                $(this).css("background-color", "yellow");
+            }
+        });
+    });
+</script>
+
+</html>

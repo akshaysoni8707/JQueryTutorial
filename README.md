@@ -20,3 +20,16 @@ Learn JQuery
 2. keyboard
 3. form
 4. BOM / DOM
+5. on() method multiple event handler
+
+**Hide/Show/Toggle**
+1. hide()
+2. show()
+3. toggle()
+4. speed
+
+**Fade**
+1. fadeIn()
+2. fadeOut()
+3. fadeToggle()
+4. fadeTo()
