@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Demonstrate fadeIn() with different parameters.</p>
+
+    <button id="fadein">Fade In</button><br><br>
+    <button id="fadeout">Fade Out</button><br><br>
+    <button id="fadetoggle">Fade Toggle</button><br><br>
+    <div id="div1" style="display:none;background-color:red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos earum repellat adipisci fuga officia distinctio dolorum, enim minima aliquam neque voluptatum facilis dolores placeat, provident et tempore eum nesciunt!</div><br>
+    <div id="div2" style="display:none;background-color:green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quas sed totam soluta, quo blanditiis molestiae doloribus rem doloremque nemo saepe adipisci nesciunt est sequi labore dolor exercitationem deleniti quaerat.</div><br>
+    <div id="div3" style="display:none;background-color:blue;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iste reprehenderit possimus obcaecati iusto, laboriosam placeat rerum? Ullam distinctio vitae voluptas amet! Ab totam illum soluta. Accusantium totam autem in.</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#fadein").click(function() {
+            $("#div1").fadeIn();
+            $("#div2").fadeIn("slow");
+            $("#div3").fadeIn(3000);
+        });
+
+        $("#fadeout").click(function() {
+            $("#div1").fadeOut();
+            $("#div2").fadeOut("slow");
+            $("#div3").fadeOut(3000);
+        });
+        $("#fadetoggle").click(function() {
+            $("#div1").fadeToggle();
+            $("#div2").fadeToggle("slow");
+            $("#div3").fadeToggle(3000);
+        });
+    });
+</script>
+
+</html>
