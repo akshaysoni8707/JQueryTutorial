@@ -33,3 +33,8 @@ Learn JQuery
 2. fadeOut()
 3. fadeToggle()
 4. fadeTo()
+
+**Slide**
+1. slideUp()
+2. slideDown()
+3. slideToggle()
