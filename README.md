@@ -38,3 +38,17 @@ Learn JQuery
 1. slideUp()
 2. slideDown()
 3. slideToggle()
+
+**Animate**
+1. animate()
+2. multiple properties
+3. multiple animation
+
+**Stop**
+1. stop()
+
+**Callback**
+1. function(speed,callback function)
+
+**Chaining**
+1. call function in a queue
