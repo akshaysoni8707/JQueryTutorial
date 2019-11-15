@@ -52,3 +52,8 @@ Learn JQuery
 
 **Chaining**
 1. call function in a queue
+
+**Get/Set**
+1. text()
+2. html()
+3. val()
