@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptatem, commodi aut dolore quidem quas sunt iusto earum eveniet iste error cupiditate delectus mollitia provident quisquam, numquam adipisci. Porro, sequi.</p>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptas voluptatum praesentium, consequatur iusto est expedita nam quod vitae nisi! Nihil praesentium eveniet deserunt repudiandae in id ratione nobis tempore?</div>
+    <div>akshay</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $("p").append("hello world");
+        $("p").prepend("hello");
+        $("div").before("<br><b>amet consectetur adipisicing elit. Incidunt voluptas voluptatum praesentium, consequatur</b><br>");
+        $("div").after("<br><b>amet consectetur adipisicing elit. Incidunt voluptas voluptatum praesentium, consequatur</b><br>");
+    });
+</script>
+
+
+</html>
