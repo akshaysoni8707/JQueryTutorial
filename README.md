@@ -57,3 +57,27 @@ Learn JQuery
 1. text()
 2. html()
 3. val()
+
+**Add**
+1. append()
+2. prepend()
+3. after() 
+4. before()
+
+**Remove**
+1. remove()
+2. empty()
+
+**CSS classes**
+1. addClass()
+2. removeClass()
+3. toggleClass()
+4. css()
+
+**Dimensions**
+1. width()
+2. height()
+3. innerWidth()
+4. innerHeight()
+5. outerWidth()
+6. outerHeight()
