@@ -81,3 +81,28 @@ Learn JQuery
 4. innerHeight()
 5. outerWidth()
 6. outerHeight()
+
+**Traversing Ancestors**
+1. parent()
+2. parents()
+3. parentsUntil()
+
+**Traversing Descendants**
+1. children()
+2. find()
+
+**Traversing Siblings**
+1. siblings()
+2. next()
+3. nextAll()
+4. nextUntil()
+5. prev()
+6. prevAll()
+7. prevUntil()
+
+**Traversing Filtering**
+1. first()
+2. last()
+3. eq()
+4. filter()
+5. not()
