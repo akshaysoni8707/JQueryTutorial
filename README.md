@@ -106,3 +106,6 @@ Learn JQuery
 3. eq()
 4. filter()
 5. not()
+
+**Ajax**
+1. $.ajax()

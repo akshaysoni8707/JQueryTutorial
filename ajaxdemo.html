@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="ajaxcall">click</button>
+    <p id="hello">
+    </p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#ajaxcall').click(function() {
+            $.ajax({
+                url: "ajaxSection.html",
+                success: function(result) {
+                    $("#hello").html(result);
+                },
+                error: function(result) {
+                    $("#hello").html("ERROR");
+                }
+
+            });
+
+
+        });
+    });
+</script>
+
+</html>
